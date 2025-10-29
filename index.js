@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94788770020']
+  const ownerNumber = ['94766443560']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -83,7 +83,7 @@ const port = process.env.PORT || 9090;
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting to WhatsApp ⏳️...");
+  console.log("Connecting to WhatsApp rochana md bot⏳️...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -111,24 +111,24 @@ const port = process.env.PORT || 9090;
   }
   });
   console.log('Plugins installed successful ✅')
-  console.log('Bot connected to whatsapp ✅')
+  console.log('ROCHANA MD Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 SENU-MD BOT* 〕  
+  let up = `╭─〔 *🤖 ROCHANA-MD BOT* 〕  
 ├─▸ *Ultra Super Fast Powerfull ⚠️*  
 │     *World Best BOT SENU-MD* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
 
-- *🖤 Thank You for Choosing SENU-MD!* 
+- *🖤 Thank You for Choosing ROCHANA-MD!* 
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029Vb2OcviBFLgPzVjWhE0n  
+│    https://whatsapp.com/channel/0029VbB04YkHAdNamg1Ob22V  
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/Jester36/SENU-MD  
-╰─🚀 *POWERED BY JESTER-OFC*`;
+│    https://github.com/dissanayakaharshan-hub/ROCHANA-MD  
+╰─🚀 *POWERED BY ROCHANA*`;
 
-    conn.sendMessage(94788770020,{ image: { url: `https://i.ibb.co/RGLKzshm/SulaMd.jpg` }, caption: up })
+    conn.sendMessage(94766443560,{ image: { url: `https://github.com/dissanayakaharshan-hub/ROCHANA-MD/blob/main/IMG/e6dfab38-3a0e-4f1f-be0c-f06d9573353f.png?raw=true` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -216,7 +216,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('94788770020', '94775877546', '94783613116');
+    const jawadop = ('94766443560','94729012605');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
