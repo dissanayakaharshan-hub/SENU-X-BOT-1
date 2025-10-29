@@ -128,7 +128,7 @@ const port = process.env.PORT || 9090;
 │    https://github.com/dissanayakaharshan-hub/ROCHANA-MD  
 ╰─🚀 *POWERED BY ROCHANA*`;
 
-    conn.sendMessage(94766443560,{ image: { url: `https://github.com/dissanayakaharshan-hub/ROCHANA-MD/blob/main/IMG/e6dfab38-3a0e-4f1f-be0c-f06d9573353f.png?raw=true` }, caption: up })
+    conn.sendMessage("94766443560@s.whatsapp.net",{ image: { url: `https://github.com/dissanayakaharshan-hub/ROCHANA-MD/blob/main/IMG/e6dfab38-3a0e-4f1f-be0c-f06d9573353f.png?raw=true` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
