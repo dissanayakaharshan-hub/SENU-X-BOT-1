@@ -128,7 +128,7 @@ const port = process.env.PORT || 9090;
 │    https://github.com/dissanayakaharshan-hub/ROCHANA-MD  
 ╰─🚀 *POWERED BY ROCHANA*`;
 
-    conn.sendMessage(94766443560,{ image: { url: `https://i.ibb.co/pjG1NGpj/rochanamd.png` }, caption: up })
+    conn.sendMessage("94766443560@s.whatsapp.net",{ image: { url: `https://i.ibb.co/pjG1NGpj/rochanamd.png` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
