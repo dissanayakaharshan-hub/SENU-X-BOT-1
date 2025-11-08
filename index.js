@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94788770020']
+  const ownerNumber = ['94766443560']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -118,17 +118,17 @@ const port = process.env.PORT || 9090;
 │     *World Best BOT SENU-MD* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
 
-- *🖤 Thank You for Choosing SENU-MD!* 
+- *🖤 Thank You for Choosing ROCHANA-MD!* 
 
 ╭──〔 🔗 *Information* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029Vb2OcviBFLgPzVjWhE0n  
+│    https://whatsapp.com/channel/0029VbB04YkHAdNamg1Ob22V  
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/Jester36/SENU-MD  
-╰─🚀 *POWERED BY JESTER-OFC*`;
+│    https://github.com/dissanayakaharshan-hub/ROCHANA-MD  
+╰─🚀 *POWERED BY ROCHANA*`;
 
-    conn.sendMessage(94788770020,{ image: { url: `https://i.ibb.co/RGLKzshm/SulaMd.jpg` }, caption: up })
+    conn.sendMessage(94766443560,{ image: { url: `https://i.ibb.co/pjG1NGpj/rochanamd.png` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -216,7 +216,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('94788770020', '94775877546', '94783613116');
+    const jawadop = ('94768797131', '94766443560');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
@@ -784,7 +784,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("SENU MD STARTED ✅");
+  res.send("ROCHANA MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
